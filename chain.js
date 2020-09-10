@@ -7,7 +7,7 @@ class Chain {
             length: 10
         }
         this.Chain = Constraint.create(options);
-        World.add(world, this.Chain);
+        World.add(world, this.chain);
     }
     display() {
         var pointA = this.Chain.bodyA.position;
